@@ -94,7 +94,7 @@ export default function PricingSection({ onCTAClick }: PricingSectionProps) {
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-yellow-300 flex-shrink-0 mt-0.5" />
-                <span className="text-white font-medium">Garantía de satisfacción 30 días</span>
+                <span className="text-white font-medium">Garantía de satisfacción 7 días</span>
               </div>
               <div className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-yellow-300 flex-shrink-0 mt-0.5" />
