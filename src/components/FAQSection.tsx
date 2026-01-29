@@ -31,7 +31,7 @@ export default function FAQSection() {
     },
     {
       question: '¿Hay alguna garantía?',
-      answer: 'Sí. Tienes 30 días completos para probar el sistema. Si no estás satisfecho por cualquier razón, te devolvemos el 100% de tu dinero sin preguntas. Asumes cero riesgo.',
+      answer: 'Sí. Tienes 7 días completos para probar el sistema. Si no estás satisfecho por cualquier razón, te devolvemos el 100% de tu dinero sin preguntas. Asumes cero riesgo.',
     },
     {
       question: '¿Por qué el precio es tan bajo?',
