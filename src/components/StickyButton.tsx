@@ -18,7 +18,7 @@ export default function StickyButton({ show, onClick }: StickyButtonProps) {
             <div className="text-white text-center sm:text-left">
               <p className="font-bold text-lg">Sistema de Transformación 3x30</p>
               <p className="text-sm opacity-90">
-                <span className="line-through">$47</span> → Solo $5.90 (92% OFF)
+                <span className="line-through">$47</span> → Solo $5.97 (92% OFF)
               </p>
             </div>
             <button
