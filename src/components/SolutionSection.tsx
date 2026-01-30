@@ -6,8 +6,8 @@ export default function SolutionSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-            Sistema de Transformación
-            <span className="text-emerald-600"> 3x30</span>
+            Reinicia tu Cuerpo:
+            <span className="text-emerald-600"> Sistema de 30 Días</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             90 recetas organizadas estratégicamente para que nunca te aburras y siempre tengas opciones deliciosas

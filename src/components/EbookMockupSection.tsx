@@ -15,7 +15,7 @@ export default function EbookMockupSection() {
               {/* CONTENEDOR DE LA IMAGEN */}
               <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden border-4 border-white">
                 <img 
-                  src="/mockup-ebook1.png"
+                  src="/mockup-reiniciatucuerpo.png"
                   alt="Mockup del Sistema de Transformación 3x30" 
                   className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500"
                 />

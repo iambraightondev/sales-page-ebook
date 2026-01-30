@@ -94,7 +94,7 @@ export default function BenefitsSection() {
 
                 <div className="text-left">
                   <p className="text-xs uppercase tracking-widest text-yellow-400 font-bold">Inversión Hoy</p>
-                  <p className="text-4xl font-black text-white">$5.90 USD</p>
+                  <p className="text-4xl font-black text-white">$5.97 USD</p>
                 </div>
               </div>
 
