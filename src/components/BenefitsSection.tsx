@@ -3,10 +3,6 @@ import { CheckCircle2 } from 'lucide-react';
 export default function BenefitsSection() {
   const benefits = [
     {
-      title: 'Pierde Peso Sin Pasar Hambre',
-      description: 'Recetas diseñadas para mantenerte satisfecho mientras tu cuerpo quema grasa de forma natural',
-    },
-    {
       title: '90 Opciones Diferentes',
       description: 'Nunca más te aburrirás comiendo lo mismo. Variedad infinita para mantener tu motivación al 100%',
     },
