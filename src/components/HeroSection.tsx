@@ -30,7 +30,7 @@ export default function HeroSection({ onCTAClick }: HeroSectionProps) {
             <div className="bg-white rounded-2xl shadow-2xl p-6 mb-8 border-2 border-emerald-200">
               <div className="flex items-end justify-center gap-3 mb-4">
                 <span className="text-gray-400 line-through text-2xl">$47.00</span>
-                <span className="text-5xl md:text-6xl font-black text-emerald-600">$3.90</span>
+                <span className="text-5xl md:text-6xl font-black text-emerald-600">$5.90</span>
               </div>
               <div className="bg-red-500 text-white text-sm font-bold py-2 px-4 rounded-lg inline-block mb-4">
                 ¡92% DE DESCUENTO HOY!

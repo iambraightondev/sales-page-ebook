@@ -71,10 +71,10 @@ export default function PricingSection({ onCTAClick }: PricingSectionProps) {
             <div className="mb-8">
               <div className="flex items-end gap-3 mb-2">
                 <span className="text-2xl text-white line-through opacity-70">$47</span>
-                <span className="text-6xl font-black text-white">$3.90</span>
+                <span className="text-6xl font-black text-white">$5.90</span>
               </div>
               <div className="bg-yellow-400 text-gray-900 inline-block px-4 py-2 rounded-lg font-bold text-lg mb-2">
-                ¡AHORRA $43.10! (92% OFF)
+                ¡AHORRA $41.10! (92% OFF)
               </div>
               <p className="text-white text-sm opacity-90">Oferta válida solo hoy</p>
             </div>

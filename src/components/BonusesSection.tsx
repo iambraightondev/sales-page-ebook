@@ -146,7 +146,7 @@ export default function BonusesSection() {
 
             <p className="mt-4 text-gray-800 text-lg leading-tight">
               Incluido con tu acceso único de <br />
-              <span className="text-3xl font-black text-emerald-600">$3.90 USD</span>
+              <span className="text-3xl font-black text-emerald-600">$5.90 USD</span>
             </p>
 
             <p className="text-xs text-gray-500 mt-2 italic">

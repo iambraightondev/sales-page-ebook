@@ -60,7 +60,7 @@ function App() {
               onClick={handleCTAClick}
               className="w-full bg-gradient-to-r from-red-500 to-red-600 text-white text-xl font-bold py-6 px-12 rounded-xl hover:from-red-600 hover:to-red-700 transform hover:scale-105 transition-all duration-300 shadow-2xl"
             >
-              COMPRAR AHORA POR $3.90
+              COMPRAR AHORA POR $5.90
             </button>
             <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-gray-600">
               <span className="flex items-center gap-1">
