@@ -23,16 +23,12 @@ export default function BenefitsSection() {
       description: 'No necesitas gastar una fortuna en comida cara. Todo con ingredientes accesibles y económicos',
     },
     {
-      title: 'Para Toda la Familia',
-      description: 'Recetas tan deliciosas que toda tu familia las disfrutará. No tendrás que cocinar por separado',
-    },
-    {
       title: 'Resultados Visibles en 7 Días',
       description: 'Notarás cambios en tu energía y tu ropa te quedará más suelta desde la primera semana',
     },
     {
       title: 'Acceso Instantáneo Digital',
-      description: 'Descarga el ebook inmediatamente después del pago. Empieza hoy mismo tu transformación',
+      description: 'Descarga el ebook inmediatamente. Empieza hoy mismo tu transformación',
     },
   ];
 

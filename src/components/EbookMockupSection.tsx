@@ -15,7 +15,7 @@ export default function EbookMockupSection() {
               {/* CONTENEDOR DE LA IMAGEN */}
               <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden border-4 border-white">
                 <img 
-                  src="/mockup-ebook1.png" // <--- CAMBIA ESTO POR EL NOMBRE DE TU ARCHIVO
+                  src="/mockup-ebook1.png"
                   alt="Mockup del Sistema de Transformación 3x30" 
                   className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500"
                 />
@@ -32,7 +32,7 @@ export default function EbookMockupSection() {
             </div>
 
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-              Sistema de Transformación 3x30
+              Reinicia tu Cuerpo: Sistema de 30 Días
             </h2>
 
             <p className="text-lg text-gray-700 mb-6">
