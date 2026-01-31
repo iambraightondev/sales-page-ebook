@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   const handleCTAClick = () => {
-    window.open('https://pay.hotmart.com/M104165239G', '_blank');
+    window.open('https://pay.hotmart.com/M104165239G?checkoutMode=10', '_blank');
   };
 
   return (
