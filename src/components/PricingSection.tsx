@@ -13,7 +13,7 @@ export default function PricingSection({ onCTAClick }: PricingSectionProps) {
             Oferta Especial de Lanzamiento
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Esta es una oportunidad única. El precio subirá a $47 muy pronto.
+            Esta es una oportunidad única. El precio subirá a $37 muy pronto.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ export default function PricingSection({ onCTAClick }: PricingSectionProps) {
 
             <div className="mb-8">
               <div className="flex items-end gap-2 mb-4">
-                <span className="text-5xl font-black text-gray-400">$47</span>
+                <span className="text-5xl font-black text-gray-400">$37</span>
                 <span className="text-gray-500 mb-2">USD</span>
               </div>
               <p className="text-gray-400">Precio que pagarías normalmente</p>
@@ -70,11 +70,11 @@ export default function PricingSection({ onCTAClick }: PricingSectionProps) {
 
             <div className="mb-8">
               <div className="flex items-end gap-3 mb-2">
-                <span className="text-2xl text-white line-through opacity-70">$47</span>
-                <span className="text-6xl font-black text-white">$5.97</span>
+                <span className="text-2xl text-white line-through opacity-70">$37</span>
+                <span className="text-6xl font-black text-white">$2.97</span>
               </div>
               <div className="bg-yellow-400 text-gray-900 inline-block px-4 py-2 rounded-lg font-bold text-lg mb-2">
-                ¡AHORRA $41.03! (92% OFF)
+                ¡AHORRA $34.03! (92% OFF)
               </div>
               <p className="text-white text-sm opacity-90">Oferta válida solo hoy</p>
             </div>
@@ -125,7 +125,7 @@ export default function PricingSection({ onCTAClick }: PricingSectionProps) {
             ⚠️ ATENCIÓN: Esta oferta puede expirar en cualquier momento
           </p>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Una vez alcancemos nuestro límite de copias con descuento, el precio volverá a $47.
+            Una vez alcancemos nuestro límite de copias con descuento, el precio volverá a $37.
             No pierdas esta oportunidad única de obtener el sistema completo por menos del precio de un café.
           </p>
         </div>

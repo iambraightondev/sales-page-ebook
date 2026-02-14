@@ -35,7 +35,7 @@ export default function FAQSection() {
     },
     {
       question: '¿Por qué el precio es tan bajo?',
-      answer: 'Este es un precio especial de lanzamiento para conseguir testimonios y casos de éxito. Queremos que la mayor cantidad de personas pueda acceder al sistema. El precio subirá a $47 pronto.',
+      answer: 'Este es un precio especial de lanzamiento para conseguir testimonios y casos de éxito. Queremos que la mayor cantidad de personas pueda acceder al sistema. El precio subirá a $37 pronto.',
     },
   ];
 
