@@ -16,9 +16,9 @@ export default function StickyButton({ show, onClick }: StickyButtonProps) {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="text-white text-center sm:text-left">
-              <p className="font-bold text-lg">Sistema de Transformación 3x30</p>
+              <p className="font-bold text-lg">Reinicia tu Cuerpo: Sistema de 30 Días</p>
               <p className="text-sm opacity-90">
-                <span className="line-through">$37</span> → Solo $2.97 (92% OFF)
+                <span className="line-through">$47</span> → Solo $3.97 (92% OFF)
               </p>
             </div>
             <button

@@ -87,14 +87,14 @@ export default function BenefitsSection() {
               <div className="inline-flex flex-col md:flex-row items-center justify-center bg-black/20 rounded-2xl px-6 py-4 border border-white/20 gap-4">
                 <div className="text-left">
                   <p className="text-xs uppercase tracking-widest opacity-70">Valor Real</p>
-                  <p className="text-2xl line-through text-red-300 font-bold">$37.00 USD</p>
+                  <p className="text-2xl line-through text-red-300 font-bold">$47.00 USD</p>
                 </div>
 
                 <div className="hidden md:block h-10 w-px bg-white/20"></div>
 
                 <div className="text-left">
                   <p className="text-xs uppercase tracking-widest text-yellow-400 font-bold">Inversión Hoy</p>
-                  <p className="text-4xl font-black text-white">$2.97 USD</p>
+                  <p className="text-4xl font-black text-white">$3.97 USD</p>
                 </div>
               </div>
 

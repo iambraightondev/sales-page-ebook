@@ -1,4 +1,4 @@
-import { Sparkles, CheckCircle2, ArrowRight } from 'lucide-react';
+import { Sparkles, CheckCircle2 } from 'lucide-react';
 
 interface HeroSectionProps {
   onCTAClick: () => void;
@@ -11,7 +11,7 @@ export default function HeroSection({ onCTAClick }: HeroSectionProps) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          
+
           <div className="text-center md:text-left animate-fade-in">
             <div className="inline-flex items-center gap-2 bg-emerald-100 text-emerald-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
               <Sparkles className="w-4 h-4" />
@@ -43,33 +43,41 @@ export default function HeroSection({ onCTAClick }: HeroSectionProps) {
             </div>
           </div>
 
-          {/* CONTENEDOR CON LA IMAGEN DE PEXELS */}
+          {/* CONTENEDOR CON LA IMAGEN */}
           <div className="relative animate-slide-up">
             <div className="absolute -inset-4 bg-gradient-to-r from-emerald-400 to-emerald-600 rounded-3xl blur-2xl opacity-20"></div>
-            
+
             <div className="relative bg-white rounded-[2.5rem] shadow-2xl p-3 border-2 border-emerald-100 transform md:rotate-3 hover:rotate-0 transition-transform duration-500">
               <img
-                src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/img-princ.png"
                 alt="Comida saludable y deliciosa"
-                className="w-full h-[400px] md:h-[500px] object-cover rounded-[2rem] shadow-sm"
+                className="w-full h-auto object-cover rounded-[2rem] shadow-sm"
               />
-              
-              {/* Badge flotante de confianza */}
-              <div className="absolute -bottom-6 -right-6 bg-white text-emerald-900 font-bold px-6 py-4 rounded-2xl shadow-2xl border border-emerald-50 hidden md:block">
+
+              {/* Badge flotante de confianza - Visible en Celular y PC */}
+              <div className="absolute -bottom-4 -right-2 md:-bottom-6 md:-right-6 bg-white text-emerald-900 font-bold px-3 py-2 md:px-6 md:py-4 rounded-xl md:rounded-2xl shadow-2xl border border-emerald-50 flex items-center z-20">
                 <div className="flex items-center gap-2">
                   <div className="flex -space-x-2">
-                    {[1,2,3].map(i => (
-                      <div key={i} className="w-8 h-8 rounded-full bg-emerald-200 border-2 border-white" />
+                    {[
+                      "/avatar-1.png",
+                      "/avatar-2.png",
+                      "/avatar-3.jpg"
+                    ].map((imgSrc, i) => (
+                      <img
+                        key={i}
+                        src={imgSrc}
+                        alt={`Alumno ${i + 1}`}
+                        className="w-6 h-6 md:w-8 md:h-8 rounded-full border-2 border-white object-cover bg-emerald-200"
+                      />
                     ))}
                   </div>
-                  <span className="text-sm">+1k Alumnos</span>
+                  <span className="text-[10px] md:text-sm whitespace-nowrap">+1K Alumnos</span>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
-      </div>
-    </section>
+      </div >
+    </section >
   );
 }
